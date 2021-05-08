@@ -74,11 +74,11 @@ public class ArticleController {
     /**
      * Description: 删除
      */
-    @DeleteMapping("del/{id}")
+    @PostMapping("del/{id}")
     @RequiresPermissions("article:del")//新增的权限
     public String del(@PathVariable("id") long id)  throws Exception{
         articleRepository.deleteById(id);
-        return "redirect:";
+        return "redirect:/article/list";
     }
 
 

@@ -62,7 +62,7 @@
                             <input type="hidden" name="_method" value="DELETE"/>
                             <input type="submit" class="btn btn-outline-danger" value="删除"/>
                         </form>-->
-                        <button th:attr="del_uri=@{/article/}+${item.id}" class="btn btn-outline-danger deleteBtn">删除
+                        <button th:attr="del_uri=@{/article/del/}+${item.id}" class="btn btn-outline-danger deleteBtn">删除
                         </button>
 
                     </td>

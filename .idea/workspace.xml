@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f30dea9-45dd-49b4-84b4-ce87db686ac2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/MyShiroRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/MyShiroRealm.java" afterDir="false" />
-    </list>
+    <list default="true" id="8f30dea9-45dd-49b4-84b4-ce87db686ac2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +52,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/sql" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -104,6 +103,8 @@
       <workItem from="1620379840601" duration="3736000" />
       <workItem from="1620433783375" duration="963000" />
       <workItem from="1620445819947" duration="947000" />
+      <workItem from="1620606695213" duration="1001000" />
+      <workItem from="1620608916295" duration="1422000" />
     </task>
     <servers />
   </component>
@@ -123,6 +124,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1620610283355">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620610283355" />
     <state x="2729" y="417" width="301" height="280" key="Github.ShareDialog" timestamp="1619765304160">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

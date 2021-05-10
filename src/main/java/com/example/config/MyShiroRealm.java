@@ -45,7 +45,8 @@ public class MyShiroRealm extends AuthorizingRealm {
         // 根据用户名在数据库中查找此用户
         // 实际项目中，这里可以根据实际情况做缓存，如果不做，Shiro 自己也是有时间间隔机制，2分钟内不会重复执行该方法?
         UserInfo userInfo = userService.findByUsername(username);
-        if (userInfo == null) {
+        // 判断用户是否存在以及用户是否有效
+        if (userInfo == null || userInfo.getState() == 2) {
             return null;
         }
         //根据salt来验证token中的密码是否跟从数据库查找的密码匹配，匹配则登录成功。getName()设置当前Realm的唯一名称，可自定义
